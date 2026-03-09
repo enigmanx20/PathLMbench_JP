@@ -1,0 +1,138 @@
+# =========================
+# OS
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+
+# =========================
+# Python bytecode
+# =========================
+
+pycache/
+*.py[cod]
+$py.class
+
+
+# =========================
+# Python virtual environment
+# =========================
+
+venv/
+.venv/
+env/
+ENV/
+
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+.env.
+*.env
+
+
+# =========================
+# Python packaging
+# =========================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+.egg
+pip-wheel-metadata/
+
+
+# =========================
+# Testing / coverage
+# =========================
+
+.pytest_cache/
+.coverage
+.coverage.
+htmlcov/
+.tox/
+.nox/
+
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+
+# =========================
+# IDE / Editor
+# =========================
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+
+# =========================
+# Type checkers
+# =========================
+
+.mypy_cache/
+.pyre/
+.pytype/
+
+
+# =========================
+# Static analysis
+# =========================
+
+.ruff_cache/
+
+
+# =========================
+# Temporary files
+# =========================
+
+tmp/
+temp/
+
+
+# =========================
+# Data (optional – remove if you want datasets tracked)
+# =========================
+
+data/
+datasets/
+
+
+# =========================
+# Large artifacts
+# =========================
+
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
