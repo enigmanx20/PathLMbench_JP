@@ -26,7 +26,7 @@ Common flags (quick reference):
 ## Model command examples
 
 ### google/gemma-3-27b-it-qat-q4_0-gguf
-Description: Italian Gemma 27B (quantized)
+Description: Gemma 27B
 
 ```bash
 ./llama.cpp/build/bin/llama-server \
@@ -65,7 +65,7 @@ Reference: https://bone.jp/articles/2025/251031_jmed_llm3_long_context
 	-m ./models/SIP-jmed/SIP-jmed-llm-3-8x13b-AC-32k-instruct-Q8_0.gguf
 ```
 
-### Qwen3-Next-80B-A3B (Instruct / Thinking)
+### Qwen/Qwen3-Next-80B-A3B (Instruct / Thinking)
 Instruct variant:
 
 ```bash
