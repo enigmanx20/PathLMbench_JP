@@ -5,7 +5,7 @@ PathLMbench_JP is a small toolkit and a set of templates for benchmarking proces
 **Paper**
 
 - Japanese original paper: under submission  
-- English preprint: https://arxiv.org/abs/2603.11597
+- English preprint: [arXiv:2603.11597](https://arxiv.org/abs/2603.11597)
 
 
 **Notebooks**
