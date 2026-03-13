@@ -2,8 +2,10 @@
 
 PathLMbench_JP is a small toolkit and a set of templates for benchmarking processing and typo-correction workflows on Japanese pathology reports. It provides Jupyter notebooks for dataset conversion and benchmarking, utilities for typo injection and evaluation, and example server commands for running local LLM models.
 
-Paper: Japanese original under review; an English preprint is in preparation.
+**Paper**
 
+- Japanese original paper: under submission  
+- English preprint: https://arxiv.org/abs/2603.11597
 **Notebooks**
 - [A1_template_breast.ipynb](A1_template_breast.ipynb): Convert JSON dataset into the project's local format.
 - [A2_template_breast.ipynb](A2_template_breast.ipynb): Conversion with added pT calculation and scoring.
