@@ -1,6 +1,7 @@
 # PathLMbench_JP
 
 PathLMbench_JP is a small toolkit and a set of templates for benchmarking processing and typo-correction workflows on Japanese pathology reports. It provides Jupyter notebooks for dataset conversion and benchmarking, utilities for typo injection and evaluation, and example server commands for running local LLM models.
+Original results are based on llama.cpp b7640. The additional Qwen3.5 and Gemma4 results are based on b8642. The running environment is mac studio M2 ultra 192GB memory. 
 
 **Paper**
 
