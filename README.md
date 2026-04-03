@@ -62,4 +62,19 @@ Locate mecab dictionaries in the dictionaries folder.
 ```bash
 jupyter lab
 ```
+## Table1: Prompt processing and text generation llama-bench results
+
+| Model | Quantization | Thinking | Additional MK | Size (GB) | Params (B) | t/s (pp512) | t/s (tg128) |
+|------|--------------|----------|----------------|-----------|-------------|--------------|--------------|
+| Gemma 3-27b-it | Q4_0 |  |  | 16.04 | 27.01 | 384.66 ± 0.17 | 29.90 ± 0.60 |
+| MedGemma-27b-text-it | Q4_K_XL |  | ✅ | 15.66 | 27.01 | 337.32 ± 0.16 | 27.31 ± 0.83 |
+| SIP-jmed-llm-3-8x13b-AC-32k-instruct | Q8_0 |  | ✅ | 72.40 | 73.16 | 421.82 ± 0.64 | 25.97 ± 0.61 |
+| Qwen3-Next-80B-A3B-Instruct | Q8_0 |  |  | 78.98 | 79.67 | 647.65 ± 5.06 | 24.97 ± 0.03 |
+| Qwen3-Next-80B-A3B-Thinking | Q8_0 | ✅ |  | 78.98 | 79.67 | 650.06 ± 2.92 | 24.94 ± 0.04 |
+| Gpt-Oss-20b | Native MXFP4 | ✅ |  | 11.27 | 20.91 | 2293.59 ± 7.69 | 120.27 ± 0.19 |
+| Gpt-Oss-120b | Native MXFP4 | ✅ |  | 59.02 | 116.83 | 1170.35 ± 8.01 | 80.03 ± 0.17 |
+| Qwen3.5-27B | A8_0 | ✅ |  | 26.62 | 26.90 | 389.03 ± 0.58 | 20.67 ± 0.01 |
+| Qwen3.5-27B | UD-Q4_K_XL | ✅ |  | 15.57 | 26.90 | 335.35 ± 0.19 | 25.53 ± 0.03 |
+| Gemma-4-31B-it | Q4_0 | ✅ |  | 16.13 | 30.70 | 332.55 ± 0.24 | 28.43 ± 0.62 |
+
 
