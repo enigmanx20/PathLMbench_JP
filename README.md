@@ -62,7 +62,7 @@ Locate mecab dictionaries in the dictionaries folder.
 ```bash
 jupyter lab
 ```
-## Table1: Prompt processing and text generation llama-bench results
+## Table1: Prompt processing and text generation llama-bench results. Mac Studio M2 Ultra 192GB memory.
 
 | Model | Quantization | Thinking | Additional MK | Size (GB) | Params (B) | t/s (pp512) | t/s (tg128) |
 |------|--------------|----------|----------------|-----------|-------------|--------------|--------------|
