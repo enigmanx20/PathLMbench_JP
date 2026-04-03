@@ -64,7 +64,7 @@ jupyter lab
 ```
 ## Table1: Prompt processing and text generation llama-bench results. Mac Studio M2 Ultra 192GB memory.
 
-| Model | Quantization | Thinking | Additional MK | Size (GB) | Params (B) | t/s (pp512) | t/s (tg128) |
+| Model | Quantization | Thinking | Additional medical knowledge | Size (GB) | Params (B) | t/s (pp512) | t/s (tg128) |
 |------|--------------|----------|----------------|-----------|-------------|--------------|--------------|
 | Gemma 3-27b-it | Q4_0 |  |  | 16.04 | 27.01 | 384.66 ± 0.17 | 29.90 ± 0.60 |
 | MedGemma-27b-text-it | Q4_K_XL |  | ✅ | 15.66 | 27.01 | 337.32 ± 0.16 | 27.31 ± 0.83 |
