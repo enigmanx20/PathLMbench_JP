@@ -10,7 +10,7 @@ Original results are based on llama.cpp b7640. The additional Qwen3.5, Qwen3.6 a
 
 
 **Notebooks**
-- [A1_template_breast.ipynb](A1_template_breast.ipynb): Convert JSON dataset into the project's local format.
+- [A1_template_breast.ipynb](A1_template_breast.ipynb): Convert JSON dataset into the project's local format. Modified to calculate the JSON match metrics.
 - [A2_template_breast.ipynb](A2_template_breast.ipynb): Conversion with added pT calculation and scoring.
 - A3 Converts local format into Kiyaku format with an example. The notebook is not distributed because of copyright concern. 
 - [A4_template_breast.ipynb](A4_template_breast.ipynb): Extract local-format records and re-export to JSON.
