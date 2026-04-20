@@ -1,7 +1,7 @@
 # PathLMbench_JP
 
 PathLMbench_JP is a small toolkit and a set of templates for benchmarking processing and typo-correction workflows on Japanese pathology reports. It provides Jupyter notebooks for dataset conversion and benchmarking, utilities for typo injection and evaluation, and example server commands for running local LLM models.
-Original results are based on llama.cpp b7640. The additional Qwen3.5 and Gemma4 results are based on b8642. The running environment is mac studio M2 ultra 192GB memory. 
+Original results are based on llama.cpp b7640. The additional Qwen3.5, Qwen3.6 and Gemma4 results are based on b8840 (coming soon). The running environment is mac studio M2 ultra 192GB memory. 
 
 **Paper**
 
@@ -75,7 +75,5 @@ jupyter lab
 | Gpt-Oss-20b | Native MXFP4 | ✅ |  | 11.27 | 20.91 | 2293.59 ± 7.69 | 120.27 ± 0.19 |
 | Gpt-Oss-120b | Native MXFP4 | ✅ |  | 59.02 | 116.83 | 1170.35 ± 8.01 | 80.03 ± 0.17 |
 | Qwen3.5-27B | Q8_0 | ✅ |  | 26.62 | 26.90 | 389.03 ± 0.58 | 20.67 ± 0.01 |
-| Qwen3.5-27B | UD-Q4_K_XL | ✅ |  | 15.57 | 26.90 | 335.35 ± 0.19 | 25.53 ± 0.03 |
-| Gemma-4-31B-it | Q4_0 | ✅ |  | 16.13 | 30.70 | 332.55 ± 0.24 | 28.43 ± 0.62 |
 
 
